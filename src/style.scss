@@ -1,0 +1,9 @@
+$primary: rgb(226, 226, 226);
+$secondary:rgb(115, 128, 0);
+
+// Import Bootstrap SCSS
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.btn-secondary {
+    background-color: red;
+}

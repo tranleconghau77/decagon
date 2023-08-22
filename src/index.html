@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Form</title>
+
+    <link rel="stylesheet" href="/dist/style.css">
+
+</head>
+
+<body class="h-100 d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <div class="container bg-primary">
+        <div class="row justify-content-center p-5">
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="col-md-4">
+                    <img src="./IPN-guide.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="mb-12">
+                        <h5>Validation Phone Number</h5>
+                        <p>
+                            This is a website to validate international phone number.
+                        </p>
+                    </div>
+                    <form id="phoneForm" class="d-flex">
+                        <div class="mb-3 col-md-5 ms-2">
+                            <label for="phoneNumber">Phone Number:</label>
+                            <div class="d-flex">
+                                <input type="text" id="phoneNumber" name="phoneNumber" required>
+                                <input type="submit" class="btn btn-secondary ms-2"></input>
+                            </div>
+                            <div>
+                                <label for="language">Select Language:</label>
+                                <select id="language" name="language">
+                                    <option value="en">English</option>
+                                    <option value="vi">Vietnamese</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
